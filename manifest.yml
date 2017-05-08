@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 768M
+  instances: 1
+  domain: mybluemix.net
+  name: BlockchainTelcoRoamingPartners
+  host: blockchain-telco-roaming-partners
+  disk_quota: 1024M
+  services:
+  - Blockchain4Telco
+  - availability-monitoring-auto
